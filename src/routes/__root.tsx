@@ -50,6 +50,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "R. Devendar Naidu" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { property: "og:title", content: "R. Devendar Naidu — Personal Portfolio" },
+      { name: "twitter:title", content: "R. Devendar Naidu — Personal Portfolio" },
+      { property: "og:description", content: "Personal portfolio of R. Devendar Naidu — skills in C programming and MS Office, certifications, hobbies and contact." },
+      { name: "twitter:description", content: "Personal portfolio of R. Devendar Naidu — skills in C programming and MS Office, certifications, hobbies and contact." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ca95f7d3-ac5e-4c04-8d24-8d86a51c191e/id-preview-5c9782b5--27274903-650f-46cf-bbbd-848ef46a7c03.lovable.app-1779695676046.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ca95f7d3-ac5e-4c04-8d24-8d86a51c191e/id-preview-5c9782b5--27274903-650f-46cf-bbbd-848ef46a7c03.lovable.app-1779695676046.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
